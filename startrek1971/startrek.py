@@ -1,4 +1,31 @@
-﻿from math import atan2, pi, sqrt, cos, sin
+﻿
+
+"""
+Star Trek Text Game
+Run with: py startrek.py
+
+Requirements:
+- Python 3.x
+- No additional packages needed
+
+Controls:
+nav - Navigation
+srs - Short Range Scan  
+lrs - Long Range Scan
+pha - Phasers
+tor - Torpedo Control
+she - Shield Control
+com - Computer
+qui/exi - Quit/Exit
+
+Computer Commands:
+rec - Display Galactic Record
+sta - Display Status
+tor - Torpedo Calculator  
+bas - Starbase Calculator
+nav - Navigation Calculator
+"""
+from math import atan2, pi, sqrt, cos, sin
 import random
 
 import strings
